@@ -1,0 +1,23 @@
+{
+  "name": "shareme-api",
+  "version": "1.0.0",
+  "description": "ShareMe API",
+  "main": "index.mjs",
+  "scripts": {
+    "devStart": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Ertuğrul Faruk Pişkin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^9.1.0",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "mongoose": "^8.4.0",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
